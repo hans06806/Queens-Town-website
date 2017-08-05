@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+	}
+
+/* start top*/
+.Navigator {
+	font-size: 25px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	position:relative;
+	padding: 15px;		
+	}
+	
+.Navigator ul {
+	list-style: none;
+	display:inline-block;
+	word-spacing: 1px;
+	}
+
+.Navigator ul li {
+	display:inherit;
+	margin-left: 15px;
+	font: bold 30px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  	padding: 15px 0px;
+	cursor: pointer;
+	}
+
+.Navigator ul li:hover{
+  	color: #2C702D;
+	}
+	
+/* end top*/
+
+/* content*/
+.mainpage {
+	float:left;
+}
+
+.eventpage {
+	float:right;
+}
+/* content*/
+
+/* Home page start*/
+
+.Home p {
+	font-style: italic;
+	font-weight: 800;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #D52D57;
+	}
+/* Home page end*/
+
+/* Event page start */
+.event {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #D52D57;
+	background-size: cover;
+	}
+
+.event h2, h3 {
+	text-align: center;
+}
+
+.event p {
+	font:15px Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; 
+	text-align:center;
+}
+/* Event page end */
+
+
+/* ending */
+.footer {
+	text-align:center;
+	font: bold 20px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin: 100px;
+	}
+	
+
+
